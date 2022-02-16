@@ -16,13 +16,13 @@ window.writeValues = function(form) {
  
 
   if(photo.value = "standard"){
-    document.forms[0].elements[6].options[0].value='<a href="http://www.fundacjaunum.pl/">' + '<img src="https://www.unum.pl/wp-content/uploads/2022/02/stopka_1_beU_mezczyzna_1.jpg" style="max-height: 127px; min-width: 500px;" height="127">' + '</a>';
+    document.forms[0].elements[6].options[0].value='<a href="http://www.fundacjaunum.pl/">' + '<img src="https://www.unum.pl/wp-content/uploads/2022/02/stopka_1_beU_mezczyzna_1.jpg" style="height: 127px; width: 500px;">' + '</a>';
   } 
 
   if(photo.value = "classic"){
-    document.forms[0].elements[6].options[1].value='<a href="http://www.fundacjaunum.pl/">' + '<img src="https://www.unum.pl/wp-content/uploads/2022/02/stopka_1_beU_mezczyzna_.jpg" style="max-height: 127px; min-width: 500px;" height="127">' + '</a>';
+    document.forms[0].elements[6].options[1].value='<a href="http://www.fundacjaunum.pl/">' + '<img src="https://www.unum.pl/wp-content/uploads/2022/02/stopka_1_beU_mezczyzna_.jpg" style="height: 127px; width: 500px;">' + '</a>';
   } 
 
   if(photo.value = "mdrt"){
-    document.forms[0].elements[6].options[2].value='<a href="http://www.fundacjaunum.pl/">' + '<img src="https://www.unum.pl/wp-content/uploads/2022/02/stopka_1_beU.jpg" style="max-height: 127px; min-width: 500px;" height="127">' + '</a>';
+    document.forms[0].elements[6].options[2].value='<a href="http://www.fundacjaunum.pl/">' + '<img src="https://www.unum.pl/wp-content/uploads/2022/02/stopka_1_beU.jpg" style="height: 127px; width: 500px;">' + '</a>';
   } 
