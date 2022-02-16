@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Generator stopki</title>
+</head>
+<body>
+<div class="content">
+    <form>
+        <ul class="footer-gen">
+            <li>
+                <div class="question">Imię i nazwisko:</div>
+                <input type="text" id="name">
+            </li>
+            <li>
+                <div class="question">Stanowisko:</div>
+                <input type="text" id="position">
+            </li>
+            <li>
+                <div class="question">Numer telefonu:</div>
+                <input type="text" id="number"
+            </li>
+            <li>
+                <div class="question">Oddział:</div>
+                <input type="text" id="department">
+            </li>
+            <li>
+                <div class="question">Adres oddziału:</div>
+                <input type="text" id="adress">
+            </li>
+            <li>
+                <div class="question">E-mail:</div>
+                <input type="text" id="email">
+            </li>
+            <li>
+                <div class="question">Wybierz zdjęcie:</div>
+                <select id="photo">
+                    <option value="standard">LPA</option>
+                    <option value="classic">Razem możemy więcej!</option>
+                    <option value="mdrt">SM</option>
+                </select>
+            </li>
+            <li class="button">
+                <input class="btn" type="button" value="Wygeneruj" onClick="writeValues(form)">
+              </li>
+        </ul>
+        <span id="first"></span><br>
+        <span id="email-txt"></span><br>
+        <span id="page"></span><br>
+        <span id="company-data" style="font-size: 10px; color:#808080"></span><br>
+        <span id="rodo-data" style="font-size: 10px; color:#808080"></span><br>
+        <span id="eco" style="font-size: 10px; color:#00a000"></span><br>
+    </form>
+</div>
+<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
