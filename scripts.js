@@ -16,7 +16,7 @@ window.writeValues = function(form) {
  
 
    if(photo.value = "standard"){
-    document.forms[0].elements[6].options[0].value='<a href="https://www.unum.pl/madreubezpieczenia">' + '<img id="Obraz_x0020_1" src="mid:signature/Boxer_1643060235909387_inline_signature.jpg" style="width: 5in; height: auto; max-height: 127px; max-width: 100%;" height="127" width="627">' + '</a>';
+    document.forms[0].elements[6].options[0].value='<a href="https://www.unum.pl/madreubezpieczenia">' + '<img src="https://www.unum.pl/wp-content/uploads/2022/02/stopka_1_beU_mezczyzna_1.jpg">' + '</a>';
   }
  
   if(photo.value = "classic"){
