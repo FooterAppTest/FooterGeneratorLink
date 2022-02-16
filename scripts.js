@@ -15,15 +15,13 @@ window.writeValues = function(form) {
   }
  
 
-   if(photo.value = "standard"){
-    document.forms[0].elements[6].options[0].value='<a href="https://www.unum.pl/madreubezpieczenia">' + '<img src="https://www.unum.pl/wp-content/uploads/2022/02/stopka_1_beU_mezczyzna_1.jpg">' + '</a>';
+  if(photo.value = "standard"){
+    document.forms[0].elements[6].options[0].value='<a href="http://www.fundacjaunum.pl/">' + '<img src="https://www.unum.pl/wp-content/uploads/2022/02/stopka_1_beU_mezczyzna_1.jpg" style="max-height: 127px; min-width: 500px;" height="127">' + '</a>';
   }
  
   if(photo.value = "classic"){
-    document.forms[0].elements[6].options[1].value='<a href="http://www.fundacjaunum.pl/">' + '<img id="Obraz_x0020_1" src="mid:signature/Boxer_1643060402092482_inline_signature.jpg" style="width: 2.5347in; height: auto; max-height: 73px; max-width: 100%;" height="73" width="243">' + '</a>';
+    document.forms[0].elements[6].options[1].value='<a href="http://www.fundacjaunum.pl/">' + '<img src="https://www.unum.pl/wp-content/uploads/2022/02/stopka_1_beU_mezczyzna_.jpg" style="max-height: 127px; min-width: 500px;" height="127">' + '</a>';
   }
  
   if(photo.value = "mdrt"){
-    document.forms[0].elements[6].options[2].value='<a href="http://www.karierawunum.pl">' + '<img id="Obraz_x0020_1" src="mid:signature/Boxer_1643060511686494_inline_signature.jpg" style="width: 5in; height: auto; max-height: 127px; max-width: 100%;" height="127" width="627">' + '</a>';
-  }
- 
+    document.forms[0].elements[6].options[2].value='<a href="http://www.fundacjaunum.pl/">' + '<img src="https://www.unum.pl/wp-content/uploads/2022/02/stopka_1_beU.jpg" style="max-height: 127px; min-width: 500px;" height="127">' + '</a>';
